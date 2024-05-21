@@ -154,6 +154,10 @@ vim.opt.cursorline = true
 -- Minimal number of screen lines to keep above and below the cursor.
 vim.opt.scrolloff = 10
 
+if vim.g.neovide then
+  vim.g.neovide_scale_factor = 0.75
+end
+
 -- [[ Basic Keymaps ]]
 --  See `:help vim.keymap.set()`
 
