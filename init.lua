@@ -156,6 +156,7 @@ vim.opt.scrolloff = 10
 
 if vim.g.neovide then
   vim.g.neovide_scale_factor = 0.75
+  vim.g.neovide_input_macos_option_key_is_meta = 'only_left'
 end
 
 -- [[ Basic Keymaps ]]
