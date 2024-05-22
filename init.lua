@@ -599,7 +599,6 @@ require('lazy').setup({
         tsserver = {},
         rust_analyzer = {},
         eslint = {},
-        csharp_ls = {},
       }
 
       -- Ensure the servers and tools above are installed
