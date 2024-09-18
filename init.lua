@@ -638,7 +638,7 @@ require('lazy').setup({
             },
           },
         },
-        tsserver = {},
+        ts_ls = {},
         rust_analyzer = {},
         eslint = {},
       }
