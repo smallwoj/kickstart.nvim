@@ -74,6 +74,8 @@ return {
       require('lspconfig').rust_analyzer.setup({})
       require('lspconfig').nixd.setup({})
       require('lspconfig').jedi_language_server.setup({})
+      require('lspconfig').ts_ls.setup({})
+      require('lspconfig').eslint.setup({})
     end
   }
 }
