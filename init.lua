@@ -162,6 +162,8 @@ if vim.g.neovide then
   vim.g.neovide_cursor_vfx_mode = 'railgun'
 end
 
+vim.lsp.enable({'eslint', 'jedi-language-server', 'lua-ls', 'nixd', 'rust-analyzer', 'ts-ls'})
+
 -- [[ Basic Keymaps ]]
 --  See `:help vim.keymap.set()`
 
